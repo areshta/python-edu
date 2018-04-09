@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/home/alex/pycharm-community-2018.1/bin/pycharm.sh
+Name=PyCharm
+Terminal=false
+
+
