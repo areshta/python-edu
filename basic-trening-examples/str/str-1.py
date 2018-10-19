@@ -13,7 +13,7 @@ print(str1)
 print(str2)
 print(str3)
            
-print("\n*** Escape characters and row strings example. ***\n")
+print("\n*** Escape characters and raw strings example. ***\n")
 
 str1 = "It is Windows path: d:\\Program Files\\some program"
 str2 = "Lines and tabs:\n\tLine 1\n\tLine 2\n\tLine 3"
