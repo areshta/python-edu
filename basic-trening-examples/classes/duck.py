@@ -5,7 +5,7 @@
 # Classes declaration
 class Dog:
     def voice(self):
-        print("Bark-bark")
+        print("Woof-woof")
 
 class Cat:
     def voice(self):
@@ -13,7 +13,7 @@ class Cat:
 
 class Duck:
     def voice(self):
-        print("Quack-quak")
+        print("Quack-quack")
 
 # Execution 
 animals = []
@@ -21,7 +21,7 @@ animals.append(Dog())
 animals.append(Cat())
 animals.append(Duck())
 
-# Python does not need interface inharitance
+# Python does not need interface inheritance
 # It is enough to have the same functions interface
 
 for animal in animals:
