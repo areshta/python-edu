@@ -9,7 +9,7 @@ colors = ["red","blue","red", "cyan", "black", "blue", "red",
           "red", "green", "blue", "red", "green", "blue", 
           "blue","red", "cyan", "black", "blue", "green"]
 
-dc = {} # we will use dictionary of color:counter pares
+dc = {} # we will use dictionary of color:counter pairs
 for cl in colors:
     if dc.get(cl) == None:
         dc[cl] = 1
