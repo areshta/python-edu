@@ -1,8 +1,8 @@
 # Python-3 set example
-# For example, we registrate some colored objects
-# and whant to know how many colors was.
+# For example, we register some colored objects
+# and want to know how many colors was.
 
-# was registrated:
+# was registered:
 colors = ["red","blue","red", "cyan", "black", "blue", "red", 
           "red", "orange", "black", "cyan", "red", "pink",
           "orange", "black", "cyan", "red", "pink", "blue",
