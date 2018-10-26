@@ -1,6 +1,4 @@
-import copy
-##Python-3 list copy example
-
+#Python-3 list copy exampleimport copy
 print("\n*** list1=list2 is not copy! ***\n")
 
 list1 = []

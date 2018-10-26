@@ -13,13 +13,13 @@ print("str1[3:] = ", str1[3:])
 print("str1[:3] = ", str1[:3])
 print("str1[:] = ", str1[:])
 
-print("\n*** Concatination example. ***\n")
+print("\n*** Concatenation example. ***\n")
 
 str1 = "Johen"
 str2 = "Black"
 print( str1 + " " + str2 + "\n")
 
-print("\n*** Convertion example. ***\n")
+print("\n*** Conversion example. ***\n")
 str_to_int = int("125")
 print("str_to_int = ", str_to_int)
 float_to_str = str("27.5")

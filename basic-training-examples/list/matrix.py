@@ -1,4 +1,4 @@
-# python-3 List example
+# python-3 List + for example
 print ("\n*** Matrix example ***\n")
 
 matrix = [[11,12,13],[21,22,23],[31,32,33]]
