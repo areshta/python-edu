@@ -5,7 +5,7 @@ def counter(func):
     def wrapper(*args, **kwargs):
         wrapper.count += 1
         res = func(*args, **kwargs)
-        print("{0} была вызвана: {1}x".format(func.__name__, wrapper.count))
+        print("{0} was called: {1}x".format(func.__name__, wrapper.count))
         return res
     wrapper.count = 0
     return wrapper
