@@ -1,6 +1,6 @@
 #Pethon-3 "for-else" exaple
 
-print("\n*** Find if gas mixture is danger using circle  ***\n")
+print("\n*** Find if gas mixture is danger using loop-else  ***\n")
 
 def print_danger_mixture (mixture):
     bOxigen = False

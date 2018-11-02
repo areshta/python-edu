@@ -6,7 +6,7 @@ level = 0
 answer = 'Y'
 
 while answer.upper() != 'N':
-	print(f"Your patience level = {level}.  Continue?[n - no]",end = "")
-	level += 1
-	answer = input()
+    print(f"Your patience level = {level}.  Continue?[n - no]",end = "")
+    level += 1
+    answer = input()
 

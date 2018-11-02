@@ -1,4 +1,4 @@
-#Python-3. Functions example. Recursion and itteration. Decoration.
+#Python-3. Functions example. Recursion and iteration. Decoration.
 
 def counter(func):
     """ counter decorator"""
@@ -20,14 +20,14 @@ def factorial_rc(n):
 
 @counter
 def factorial_it(n):
-    """itterative solution"""
+    """iterative solution"""
     mp = 1
     for i in range(2, n+1):
         mp *= i
     return mp
 
-print("\n*** Factorial calculation. Recursive and Itteration. Decorators using ***\n")
+print("\n*** Factorial calculation. Recursive and Iteration. Decorators using ***\n")
 i = 20
-print("{:2}! = recursive {:8}   and   itterative {:8}"
+print("{:2}! = recursive {:8}   and   iterative {:8}"
       .format(i, factorial_rc(i), factorial_it(i)) )
 
