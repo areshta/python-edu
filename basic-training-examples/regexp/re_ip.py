@@ -2,13 +2,8 @@
 
 import re
 
-print("\n*** Looking for IP example ***\n") 
-text = """IP addresses are usually written and displayed in human-readable notations, 
-such as 172.16.254.1 in IPv4, and 2001:db8:0:1234:0:567:8:1 in IPv6."""
+print("\n*** Looking for file with cpp extention ***\n") 
 
-print( "The sting includes IP = " + re.search(r'\d+\.\d+\.\d+\.\d+', text).group() )
-
-print("\n*** Looking for cpp code example ***\n") 
 paths = [
 "/home/user/work/some_file.txt", 
 "/var/log/code.cpp",
