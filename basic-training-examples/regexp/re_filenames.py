@@ -11,7 +11,6 @@ def apply_exp(lst, exp, comment):
         else:
             print("Ignore")
 
-
 paths = ["/home/wr/some_file.txt", "/var/log/code.cpp",
 "/opt.cpp/set/set.a12", "/optc/set/not_cpp", "/cpp/set/other.cpp",
 "d:\winfiles\some.txt", "/home/alex/noextent", "/home/alex/Big.a15",
