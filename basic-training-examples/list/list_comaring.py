@@ -15,6 +15,13 @@ print(list4 > list1) # False
 print(list5 > list1) # False
 print(list6 > list1) # True
 
+list7 = [[4,2],[3,4]]
+list8 = [[3],[1,0,0]]
+print(list8 > list7) # True
+
+list_mix = [["b"], [123]]
+#print(list_mix.sort()) #throw exeption TypeError: '<' not supported between instances of 'int' and 'str'
+
 print("\n*** List concatination. ***\n")
 
 list8 = list1 + list5
