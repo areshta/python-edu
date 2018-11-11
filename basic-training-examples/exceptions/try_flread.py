@@ -1,6 +1,6 @@
 #Python 3. Try-catch example
 
-fn = raw_input("Filename (a.txt could be OK): ")
+fn = input("Filename (a.txt could be OK): ")
 
 try:
     f = open(fn,"r")
